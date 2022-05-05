@@ -1,0 +1,42 @@
+{
+    "version": 1.0,
+    "totalCharts": 32,
+    "charts": [
+        {
+            "name": "Pie",
+            "chartType": "PieChart",
+            "data": [
+                ["Task", "Hours per Day"],
+                ["İş", 11],
+                ["Yemek", 2],
+                ["Yolda Geçen Süre", 1],
+                ["Kitap okuma", 1],
+                ["Uyku", 7],
+				["Yazılım", 2]
+            ],
+            "options":{
+                "title": "Pasta Grafik"
+            },
+            "width": "100%",
+            "height": "400px"
+        },
+        {
+            "name": "Bar",
+            "chartType": "BarChart",
+            "data": [
+                ["Task", "Saat (1 günde)"],
+                ["İş", 11],
+                ["Yemek", 2],
+                ["Yolda Geçen Süre", 1],
+                ["Kitap okuma", 1],
+                ["Uyku", 7],
+				["Yazılım", 2]
+            ],
+            "options":{
+                "title": "Bar Grafik"
+            },
+            "width": "100%",
+            "height": "400px"
+        }
+    ]
+}
